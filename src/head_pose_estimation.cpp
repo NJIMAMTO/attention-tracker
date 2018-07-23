@@ -69,38 +69,40 @@ void HeadPoseEstimation::update(cv::InputArray _image)
         const full_object_detection& d = shapes[i];
 
         for (unsigned long i = 1; i <= 16; ++i)
-            line(_debug, toCv(d.part(i)), toCv(d.part(i-1)), color, 2, CV_AA);
+            cv::line(_debug, toCv(d.part(i)), toCv(d.part(i-1)), color, 2, CV_AA);
 
         for (unsigned long i = 28; i <= 30; ++i)
-            line(_debug, toCv(d.part(i)), toCv(d.part(i-1)), color, 2, CV_AA);
+            cv::line(_debug, toCv(d.part(i)), toCv(d.part(i-1)), color, 2, CV_AA);
 
         for (unsigned long i = 18; i <= 21; ++i)
-            line(_debug, toCv(d.part(i)), toCv(d.part(i-1)), color, 2, CV_AA);
+            cv::line(_debug, toCv(d.part(i)), toCv(d.part(i-1)), color, 2, CV_AA);
         for (unsigned long i = 23; i <= 26; ++i)
-            line(_debug, toCv(d.part(i)), toCv(d.part(i-1)), color, 2, CV_AA);
+            cv::line(_debug, toCv(d.part(i)), toCv(d.part(i-1)), color, 2, CV_AA);
         for (unsigned long i = 31; i <= 35; ++i)
-            line(_debug, toCv(d.part(i)), toCv(d.part(i-1)), color, 2, CV_AA);
-        line(_debug, toCv(d.part(30)), toCv(d.part(35)), color, 2, CV_AA);
+            cv::line(_debug, toCv(d.part(i)), toCv(d.part(i-1)), color, 2, CV_AA);
+        cv::line(_debug, toCv(d.part(30)), toCv(d.part(35)), color, 2, CV_AA);
 
         for (unsigned long i = 37; i <= 41; ++i)
-            line(_debug, toCv(d.part(i)), toCv(d.part(i-1)), color, 2, CV_AA);
-        line(_debug, toCv(d.part(36)), toCv(d.part(41)), color, 2, CV_AA);
+            cv::line(_debug, toCv(d.part(i)), toCv(d.part(i-1)), color, 2, CV_AA);
+        cv::line(_debug, toCv(d.part(36)), toCv(d.part(41)), color, 2, CV_AA);
 
         for (unsigned long i = 43; i <= 47; ++i)
-            line(_debug, toCv(d.part(i)), toCv(d.part(i-1)), color, 2, CV_AA);
-        line(_debug, toCv(d.part(42)), toCv(d.part(47)), color, 2, CV_AA);
+            cv::line(_debug, toCv(d.part(i)), toCv(d.part(i-1)), color, 2, CV_AA);
+        cv::line(_debug, toCv(d.part(42)), toCv(d.part(47)), color, 2, CV_AA);
 
         for (unsigned long i = 49; i <= 59; ++i)
-            line(_debug, toCv(d.part(i)), toCv(d.part(i-1)), color, 2, CV_AA);
-        line(_debug, toCv(d.part(48)), toCv(d.part(59)), color, 2, CV_AA);
+            cv::line(_debug, toCv(d.part(i)), toCv(d.part(i-1)), color, 2, CV_AA);
+        cv::line(_debug, toCv(d.part(48)), toCv(d.part(59)), color, 2, CV_AA);
 
         for (unsigned long i = 61; i <= 67; ++i)
-            line(_debug, toCv(d.part(i)), toCv(d.part(i-1)), color, 2, CV_AA);
-        line(_debug, toCv(d.part(60)), toCv(d.part(67)), color, 2, CV_AA);
+            cv::line(_debug, toCv(d.part(i)), toCv(d.part(i-1)), color, 2, CV_AA);
+        cv::line(_debug, toCv(d.part(60)), toCv(d.part(67)), color, 2, CV_AA);
 
+        /*
         for (auto i = 0; i < 68 ; i++) {
             putText(_debug, to_string(i), toCv(d.part(i)), FONT_HERSHEY_DUPLEX, 0.6, Scalar(255,255,255));
         }
+        */
     }
 #endif
 }
@@ -182,9 +184,9 @@ head_pose HeadPoseEstimation::pose(size_t face_idx) const
 
     projectPoints(axes, rvec, tvec, projection, noArray(), projected_axes);
 
-    line(_debug, projected_axes[0], projected_axes[3], Scalar(255,0,0),2,CV_AA);
-    line(_debug, projected_axes[0], projected_axes[2], Scalar(0,255,0),2,CV_AA);
-    line(_debug, projected_axes[0], projected_axes[1], Scalar(0,0,255),2,CV_AA);
+    cv::line(_debug, projected_axes[0], projected_axes[3], Scalar(255,0,0),2,CV_AA);
+    cv::line(_debug, projected_axes[0], projected_axes[2], Scalar(0,255,0),2,CV_AA);
+    cv::line(_debug, projected_axes[0], projected_axes[1], Scalar(0,0,255),2,CV_AA);
 
     putText(_debug, "(" + to_string(int(pose(0,3) * 100)) + "cm, " + to_string(int(pose(1,3) * 100)) + "cm, " + to_string(int(pose(2,3) * 100)) + "cm)", coordsOf(face_idx, SELLION), FONT_HERSHEY_SIMPLEX, 0.5, Scalar(0,0,255),2);
 
@@ -211,8 +213,8 @@ Point2f HeadPoseEstimation::coordsOf(size_t face_idx, FACIAL_FEATURE feature) co
     return toCv(shapes[face_idx].part(feature));
 }
 
-// Finds the intersection of two lines, or returns false.
-// The lines are defined by (o1, p1) and (o2, p2).
+// Finds the intersection of two cv::lines, or returns false.
+// The cv::lines are defined by (o1, p1) and (o2, p2).
 // taken from: http://stackoverflow.com/a/7448287/828379
 bool HeadPoseEstimation::intersection(Point2f o1, Point2f p1, Point2f o2, Point2f p2,
                                       Point2f &r) const

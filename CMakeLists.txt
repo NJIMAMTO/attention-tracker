@@ -52,7 +52,7 @@ if(DEBUG)
     add_definitions(-DHEAD_POSE_ESTIMATION_DEBUG)
 endif()
 
-add_library(head_pose_estimation SHARED src/head_pose_estimation.cpp)
+add_library(head_pose_estimation SHARED ./src/head_pose_estimation.cpp)
 target_link_libraries(head_pose_estimation dlib ${OpenCV_LIBRARIES})
 
 if(WITH_ROS)
@@ -93,11 +93,11 @@ if(WITH_TESTS)
         find_package(OpenCV COMPONENTS core imgproc calib3d highgui REQUIRED)
     endif()
 
-    add_executable(head_pose_single_frame samples/head_pose_estimation_single_frame.cpp)
+    add_executable(head_pose_single_frame ./samples/head_pose_estimation_single_frame.cpp)
     target_link_libraries(head_pose_single_frame head_pose_estimation ${OpenCV_LIBRARIES})
 
     if(DEBUG)
-	    add_executable(head_pose_test samples/head_pose_estimation_test.cpp)
+	    add_executable(head_pose_test ./samples/head_pose_estimation_test.cpp)
 	    target_link_libraries(head_pose_test head_pose_estimation ${OpenCV_LIBRARIES})
     endif()
 
