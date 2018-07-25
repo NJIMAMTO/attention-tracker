@@ -188,7 +188,25 @@ head_pose HeadPoseEstimation::pose(size_t face_idx) const
     cv::line(_debug, projected_axes[0], projected_axes[2], Scalar(0,255,0),2,CV_AA);
     cv::line(_debug, projected_axes[0], projected_axes[1], Scalar(0,0,255),2,CV_AA);
 
-    putText(_debug, "(" + to_string(int(pose(0,3) * 100)) + "cm, " + to_string(int(pose(1,3) * 100)) + "cm, " + to_string(int(pose(2,3) * 100)) + "cm)", coordsOf(face_idx, SELLION), FONT_HERSHEY_SIMPLEX, 0.5, Scalar(0,0,255),2);
+    //=========================角度計算=========================//
+    Mat projMat(pose);
+    projMat.resize(3);
+
+    Mat cameraMatrix, rotation_matrix, translation_vector, rotMatrixX, rotMatrixY, rotMatrixZ;
+    std::vector<double> eulerAngles;
+
+    decomposeProjectionMatrix(projMat, cameraMatrix, rotation_matrix, translation_vector, rotMatrixX, rotMatrixY, rotMatrixZ, eulerAngles);
+            
+    int yaw   = (int)eulerAngles[1]; 
+    int pitch = (int)eulerAngles[0];
+    int roll  = (int)eulerAngles[2];
+
+    //角度表示
+    putText(_debug, "(" + to_string(yaw)   + "[deg], ", coordsOf(face_idx, SELLION), FONT_HERSHEY_SIMPLEX, 0.5, Scalar(255,255,255),0.5);
+    putText(_debug, "          " + to_string(pitch) + "[deg], ", coordsOf(face_idx, SELLION), FONT_HERSHEY_SIMPLEX, 0.5, Scalar(0,255,0),0.5);
+    putText(_debug, "                    " + to_string(roll)  + "[deg])", coordsOf(face_idx, SELLION), FONT_HERSHEY_SIMPLEX, 0.5, Scalar(0,0,255),0.5);
+
+    //putText(_debug, "(" + to_string(int(pose(0,3) * 100)) + "cm, " + to_string(int(pose(1,3) * 100)) + "cm, " + to_string(int(pose(2,3) * 100)) + "cm)", coordsOf(face_idx, SELLION), FONT_HERSHEY_SIMPLEX, 0.5, Scalar(0,0,255),2);
 
 
 #endif
