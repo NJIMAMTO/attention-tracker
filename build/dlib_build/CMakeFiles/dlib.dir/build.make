@@ -441,33 +441,9 @@ dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o.provides: dlib_buil
 dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o.provides.build: dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o
 
 
-dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o: /home/mokugyo/git_project/dlib/dlib/svm/auto.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o"
-	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/svm/auto.cpp.o -c /home/mokugyo/git_project/dlib/dlib/svm/auto.cpp
-
-dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/svm/auto.cpp.i"
-	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mokugyo/git_project/dlib/dlib/svm/auto.cpp > CMakeFiles/dlib.dir/svm/auto.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/svm/auto.cpp.s"
-	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mokugyo/git_project/dlib/dlib/svm/auto.cpp -o CMakeFiles/dlib.dir/svm/auto.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o.requires:
-
-.PHONY : dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o.requires
-
-dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o.provides: dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o.requires
-	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o.provides.build
-.PHONY : dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o.provides
-
-dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o.provides.build: dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o
-
-
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o: /home/mokugyo/git_project/dlib/dlib/sockets/sockets_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o -c /home/mokugyo/git_project/dlib/dlib/sockets/sockets_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.i: cmake_force
@@ -491,7 +467,7 @@ dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o.provides.build: dl
 
 dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o: /home/mokugyo/git_project/dlib/dlib/bsp/bsp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/bsp/bsp.cpp.o -c /home/mokugyo/git_project/dlib/dlib/bsp/bsp.cpp
 
 dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.i: cmake_force
@@ -515,7 +491,7 @@ dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o.provides.build: dlib_build/CMakeFil
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o: /home/mokugyo/git_project/dlib/dlib/dir_nav/dir_nav_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o -c /home/mokugyo/git_project/dlib/dlib/dir_nav/dir_nav_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.i: cmake_force
@@ -539,7 +515,7 @@ dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o.provides.build: dl
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o: /home/mokugyo/git_project/dlib/dlib/dir_nav/dir_nav_kernel_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o -c /home/mokugyo/git_project/dlib/dlib/dir_nav/dir_nav_kernel_2.cpp
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.i: cmake_force
@@ -563,7 +539,7 @@ dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o.provides.build: dl
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o: /home/mokugyo/git_project/dlib/dlib/dir_nav/dir_nav_extensions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o -c /home/mokugyo/git_project/dlib/dlib/dir_nav/dir_nav_extensions.cpp
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.i: cmake_force
@@ -587,7 +563,7 @@ dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o.provides.build: 
 
 dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o: /home/mokugyo/git_project/dlib/dlib/linker/linker_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o -c /home/mokugyo/git_project/dlib/dlib/linker/linker_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.i: cmake_force
@@ -611,7 +587,7 @@ dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o.provides.build: dlib
 
 dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o: /home/mokugyo/git_project/dlib/dlib/logger/extra_logger_headers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o -c /home/mokugyo/git_project/dlib/dlib/logger/extra_logger_headers.cpp
 
 dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.i: cmake_force
@@ -635,7 +611,7 @@ dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o.provides.build:
 
 dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o: /home/mokugyo/git_project/dlib/dlib/logger/logger_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o -c /home/mokugyo/git_project/dlib/dlib/logger/logger_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.i: cmake_force
@@ -659,7 +635,7 @@ dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o.provides.build: dlib
 
 dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o: /home/mokugyo/git_project/dlib/dlib/logger/logger_config_file.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o -c /home/mokugyo/git_project/dlib/dlib/logger/logger_config_file.cpp
 
 dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.i: cmake_force
@@ -683,7 +659,7 @@ dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o.provides.build: d
 
 dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o: /home/mokugyo/git_project/dlib/dlib/misc_api/misc_api_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o -c /home/mokugyo/git_project/dlib/dlib/misc_api/misc_api_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.i: cmake_force
@@ -707,7 +683,7 @@ dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o.provides.build: 
 
 dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o: /home/mokugyo/git_project/dlib/dlib/misc_api/misc_api_kernel_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o -c /home/mokugyo/git_project/dlib/dlib/misc_api/misc_api_kernel_2.cpp
 
 dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.i: cmake_force
@@ -731,7 +707,7 @@ dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o.provides.build: 
 
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o: /home/mokugyo/git_project/dlib/dlib/sockets/sockets_extensions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o -c /home/mokugyo/git_project/dlib/dlib/sockets/sockets_extensions.cpp
 
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.i: cmake_force
@@ -755,7 +731,7 @@ dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o.provides.build: 
 
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o: /home/mokugyo/git_project/dlib/dlib/sockets/sockets_kernel_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o -c /home/mokugyo/git_project/dlib/dlib/sockets/sockets_kernel_2.cpp
 
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.i: cmake_force
@@ -779,7 +755,7 @@ dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o.provides.build: dl
 
 dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o: /home/mokugyo/git_project/dlib/dlib/sockstreambuf/sockstreambuf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o -c /home/mokugyo/git_project/dlib/dlib/sockstreambuf/sockstreambuf.cpp
 
 dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.i: cmake_force
@@ -803,7 +779,7 @@ dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o.provides.build:
 
 dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o: /home/mokugyo/git_project/dlib/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o -c /home/mokugyo/git_project/dlib/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp
 
 dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.i: cmake_force
@@ -827,7 +803,7 @@ dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o.prov
 
 dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o: /home/mokugyo/git_project/dlib/dlib/server/server_kernel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/server/server_kernel.cpp.o -c /home/mokugyo/git_project/dlib/dlib/server/server_kernel.cpp
 
 dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.i: cmake_force
@@ -851,7 +827,7 @@ dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o.provides.build: dlib_b
 
 dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o: /home/mokugyo/git_project/dlib/dlib/server/server_iostream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/server/server_iostream.cpp.o -c /home/mokugyo/git_project/dlib/dlib/server/server_iostream.cpp
 
 dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.i: cmake_force
@@ -875,7 +851,7 @@ dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o.provides.build: dlib
 
 dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o: /home/mokugyo/git_project/dlib/dlib/server/server_http.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/server/server_http.cpp.o -c /home/mokugyo/git_project/dlib/dlib/server/server_http.cpp
 
 dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.i: cmake_force
@@ -899,7 +875,7 @@ dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o.provides.build: dlib_bui
 
 dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o: /home/mokugyo/git_project/dlib/dlib/threads/multithreaded_object_extension.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o -c /home/mokugyo/git_project/dlib/dlib/threads/multithreaded_object_extension.cpp
 
 dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.i: cmake_force
@@ -923,7 +899,7 @@ dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o.prov
 
 dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o: /home/mokugyo/git_project/dlib/dlib/threads/threaded_object_extension.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o -c /home/mokugyo/git_project/dlib/dlib/threads/threaded_object_extension.cpp
 
 dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.i: cmake_force
@@ -947,7 +923,7 @@ dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o.provides.
 
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o: /home/mokugyo/git_project/dlib/dlib/threads/threads_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o -c /home/mokugyo/git_project/dlib/dlib/threads/threads_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.i: cmake_force
@@ -971,7 +947,7 @@ dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o.provides.build: dl
 
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o: /home/mokugyo/git_project/dlib/dlib/threads/threads_kernel_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o -c /home/mokugyo/git_project/dlib/dlib/threads/threads_kernel_2.cpp
 
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.i: cmake_force
@@ -995,7 +971,7 @@ dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o.provides.build: dl
 
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o: /home/mokugyo/git_project/dlib/dlib/threads/threads_kernel_shared.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o -c /home/mokugyo/git_project/dlib/dlib/threads/threads_kernel_shared.cpp
 
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.i: cmake_force
@@ -1019,7 +995,7 @@ dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o.provides.buil
 
 dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o: /home/mokugyo/git_project/dlib/dlib/threads/thread_pool_extension.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o -c /home/mokugyo/git_project/dlib/dlib/threads/thread_pool_extension.cpp
 
 dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.i: cmake_force
@@ -1043,7 +1019,7 @@ dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o.provides.buil
 
 dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o: /home/mokugyo/git_project/dlib/dlib/threads/async.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/async.cpp.o -c /home/mokugyo/git_project/dlib/dlib/threads/async.cpp
 
 dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.i: cmake_force
@@ -1067,7 +1043,7 @@ dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o.provides.build: dlib_build/CM
 
 dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o: /home/mokugyo/git_project/dlib/dlib/timer/timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/timer/timer.cpp.o -c /home/mokugyo/git_project/dlib/dlib/timer/timer.cpp
 
 dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.i: cmake_force
@@ -1091,7 +1067,7 @@ dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o.provides.build: dlib_build/CMak
 
 dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o: /home/mokugyo/git_project/dlib/dlib/stack_trace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/stack_trace.cpp.o -c /home/mokugyo/git_project/dlib/dlib/stack_trace.cpp
 
 dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.i: cmake_force
@@ -1115,7 +1091,7 @@ dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o.provides.build: dlib_build/CMak
 
 dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o: /home/mokugyo/git_project/dlib/dlib/cuda/cpu_dlib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o -c /home/mokugyo/git_project/dlib/dlib/cuda/cpu_dlib.cpp
 
 dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.i: cmake_force
@@ -1139,7 +1115,7 @@ dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o.provides.build: dlib_build/CM
 
 dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o: /home/mokugyo/git_project/dlib/dlib/cuda/tensor_tools.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o -c /home/mokugyo/git_project/dlib/dlib/cuda/tensor_tools.cpp
 
 dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.i: cmake_force
@@ -1163,7 +1139,7 @@ dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o.provides.build: dlib_buil
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o: /home/mokugyo/git_project/dlib/dlib/gui_widgets/fonts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o -c /home/mokugyo/git_project/dlib/dlib/gui_widgets/fonts.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.i: cmake_force
@@ -1187,7 +1163,7 @@ dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o.provides.build: dlib_buil
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o: /home/mokugyo/git_project/dlib/dlib/gui_widgets/widgets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o -c /home/mokugyo/git_project/dlib/dlib/gui_widgets/widgets.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.i: cmake_force
@@ -1211,7 +1187,7 @@ dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o.provides.build: dlib_bu
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o: /home/mokugyo/git_project/dlib/dlib/gui_widgets/drawable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o -c /home/mokugyo/git_project/dlib/dlib/gui_widgets/drawable.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.i: cmake_force
@@ -1235,7 +1211,7 @@ dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o.provides.build: dlib_b
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o: /home/mokugyo/git_project/dlib/dlib/gui_widgets/canvas_drawing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o -c /home/mokugyo/git_project/dlib/dlib/gui_widgets/canvas_drawing.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.i: cmake_force
@@ -1259,7 +1235,7 @@ dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o.provides.build: 
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o: /home/mokugyo/git_project/dlib/dlib/gui_widgets/style.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/style.cpp.o -c /home/mokugyo/git_project/dlib/dlib/gui_widgets/style.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.i: cmake_force
@@ -1283,7 +1259,7 @@ dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o.provides.build: dlib_buil
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o: /home/mokugyo/git_project/dlib/dlib/gui_widgets/base_widgets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o -c /home/mokugyo/git_project/dlib/dlib/gui_widgets/base_widgets.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.i: cmake_force
@@ -1307,7 +1283,7 @@ dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o.provides.build: dl
 
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o: /home/mokugyo/git_project/dlib/dlib/gui_core/gui_core_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o -c /home/mokugyo/git_project/dlib/dlib/gui_core/gui_core_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.i: cmake_force
@@ -1331,7 +1307,7 @@ dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o.provides.build: 
 
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o: /home/mokugyo/git_project/dlib/dlib/gui_core/gui_core_kernel_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o -c /home/mokugyo/git_project/dlib/dlib/gui_core/gui_core_kernel_2.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.i: cmake_force
@@ -1355,7 +1331,7 @@ dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o.provides.build: 
 
 dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o: /home/mokugyo/git_project/dlib/dlib/image_loader/png_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o -c /home/mokugyo/git_project/dlib/dlib/image_loader/png_loader.cpp
 
 dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.i: cmake_force
@@ -1379,7 +1355,7 @@ dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o.provides.build: dli
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o: /home/mokugyo/git_project/dlib/dlib/image_saver/save_png.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_saver/save_png.cpp.o -c /home/mokugyo/git_project/dlib/dlib/image_saver/save_png.cpp
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.i: cmake_force
@@ -1403,7 +1379,7 @@ dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o.provides.build: dlib_b
 
 dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o: /home/mokugyo/git_project/dlib/dlib/image_loader/jpeg_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o -c /home/mokugyo/git_project/dlib/dlib/image_loader/jpeg_loader.cpp
 
 dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.i: cmake_force
@@ -1427,7 +1403,7 @@ dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o.provides.build: dl
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o: /home/mokugyo/git_project/dlib/dlib/image_saver/save_jpeg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o -c /home/mokugyo/git_project/dlib/dlib/image_saver/save_jpeg.cpp
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.i: cmake_force
@@ -1467,7 +1443,6 @@ dlib_OBJECTS = \
 "CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o" \
 "CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o" \
 "CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o" \
-"CMakeFiles/dlib.dir/svm/auto.cpp.o" \
 "CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o" \
 "CMakeFiles/dlib.dir/bsp/bsp.cpp.o" \
 "CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o" \
@@ -1529,7 +1504,6 @@ dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o
@@ -1573,7 +1547,7 @@ dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cp
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/build.make
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Linking CXX static library libdlib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mokugyo/git_project/attention-tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Linking CXX static library libdlib.a"
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && $(CMAKE_COMMAND) -P CMakeFiles/dlib.dir/cmake_clean_target.cmake
 	cd /home/mokugyo/git_project/attention-tracker/build/dlib_build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dlib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -1598,7 +1572,6 @@ dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/data_io/
 dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o.requires
 dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o.requires
 dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o.requires
-dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o.requires
 dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o.requires
 dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o.requires
 dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o.requires

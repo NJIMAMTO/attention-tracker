@@ -50,7 +50,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/mokugyo/git_project/dlib/dlib/sockstreambuf/sockstreambuf.cpp" "/home/mokugyo/git_project/attention-tracker/build/dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o"
   "/home/mokugyo/git_project/dlib/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp" "/home/mokugyo/git_project/attention-tracker/build/dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o"
   "/home/mokugyo/git_project/dlib/dlib/stack_trace.cpp" "/home/mokugyo/git_project/attention-tracker/build/dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o"
-  "/home/mokugyo/git_project/dlib/dlib/svm/auto.cpp" "/home/mokugyo/git_project/attention-tracker/build/dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o"
   "/home/mokugyo/git_project/dlib/dlib/test_for_odr_violations.cpp" "/home/mokugyo/git_project/attention-tracker/build/dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o"
   "/home/mokugyo/git_project/dlib/dlib/threads/async.cpp" "/home/mokugyo/git_project/attention-tracker/build/dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o"
   "/home/mokugyo/git_project/dlib/dlib/threads/multithreaded_object_extension.cpp" "/home/mokugyo/git_project/attention-tracker/build/dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o"

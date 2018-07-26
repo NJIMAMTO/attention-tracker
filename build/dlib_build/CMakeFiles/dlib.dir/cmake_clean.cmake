@@ -15,7 +15,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o"
   "CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o"
   "CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o"
-  "CMakeFiles/dlib.dir/svm/auto.cpp.o"
   "CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o"
   "CMakeFiles/dlib.dir/bsp/bsp.cpp.o"
   "CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o"

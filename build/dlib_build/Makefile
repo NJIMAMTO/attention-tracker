@@ -1367,33 +1367,6 @@ stack_trace.cpp.s:
 	cd /home/mokugyo/git_project/attention-tracker/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.s
 .PHONY : stack_trace.cpp.s
 
-svm/auto.o: svm/auto.cpp.o
-
-.PHONY : svm/auto.o
-
-# target to build an object file
-svm/auto.cpp.o:
-	cd /home/mokugyo/git_project/attention-tracker/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o
-.PHONY : svm/auto.cpp.o
-
-svm/auto.i: svm/auto.cpp.i
-
-.PHONY : svm/auto.i
-
-# target to preprocess a source file
-svm/auto.cpp.i:
-	cd /home/mokugyo/git_project/attention-tracker/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.i
-.PHONY : svm/auto.cpp.i
-
-svm/auto.s: svm/auto.cpp.s
-
-.PHONY : svm/auto.s
-
-# target to generate assembly for a file
-svm/auto.cpp.s:
-	cd /home/mokugyo/git_project/attention-tracker/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.s
-.PHONY : svm/auto.cpp.s
-
 test_for_odr_violations.o: test_for_odr_violations.cpp.o
 
 .PHONY : test_for_odr_violations.o
@@ -1838,9 +1811,6 @@ help:
 	@echo "... stack_trace.o"
 	@echo "... stack_trace.i"
 	@echo "... stack_trace.s"
-	@echo "... svm/auto.o"
-	@echo "... svm/auto.i"
-	@echo "... svm/auto.s"
 	@echo "... test_for_odr_violations.o"
 	@echo "... test_for_odr_violations.i"
 	@echo "... test_for_odr_violations.s"

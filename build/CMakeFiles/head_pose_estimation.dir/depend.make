@@ -437,8 +437,6 @@ CMakeFiles/head_pose_estimation.dir/home/mokugyo/git_project/attention-tracker/s
 CMakeFiles/head_pose_estimation.dir/home/mokugyo/git_project/attention-tracker/src/head_pose_estimation.cpp.o: /home/mokugyo/git_project/dlib/dlib/../dlib/svm/active_learning_abstract.h
 CMakeFiles/head_pose_estimation.dir/home/mokugyo/git_project/attention-tracker/src/head_pose_estimation.cpp.o: /home/mokugyo/git_project/dlib/dlib/../dlib/svm/assignment_function.h
 CMakeFiles/head_pose_estimation.dir/home/mokugyo/git_project/attention-tracker/src/head_pose_estimation.cpp.o: /home/mokugyo/git_project/dlib/dlib/../dlib/svm/assignment_function_abstract.h
-CMakeFiles/head_pose_estimation.dir/home/mokugyo/git_project/attention-tracker/src/head_pose_estimation.cpp.o: /home/mokugyo/git_project/dlib/dlib/../dlib/svm/auto.h
-CMakeFiles/head_pose_estimation.dir/home/mokugyo/git_project/attention-tracker/src/head_pose_estimation.cpp.o: /home/mokugyo/git_project/dlib/dlib/../dlib/svm/auto_abstract.h
 CMakeFiles/head_pose_estimation.dir/home/mokugyo/git_project/attention-tracker/src/head_pose_estimation.cpp.o: /home/mokugyo/git_project/dlib/dlib/../dlib/svm/cross_validate_assignment_trainer.h
 CMakeFiles/head_pose_estimation.dir/home/mokugyo/git_project/attention-tracker/src/head_pose_estimation.cpp.o: /home/mokugyo/git_project/dlib/dlib/../dlib/svm/cross_validate_assignment_trainer_abstract.h
 CMakeFiles/head_pose_estimation.dir/home/mokugyo/git_project/attention-tracker/src/head_pose_estimation.cpp.o: /home/mokugyo/git_project/dlib/dlib/../dlib/svm/cross_validate_multiclass_trainer.h
